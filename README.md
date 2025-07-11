@@ -1,1 +1,18 @@
 # Nofication-pythonlibrary
+
+A python library that show notification pop-ups
+
+# Importing
+
+to import nofications you just type in
+
+from Notifications import NotificationManager
+nofication = NotificationManager()
+
+# How To Use
+
+to show a nofication just type in
+
+nofication.show_notification([message)
+
+replace [message] with a string you wanna notify the user with, and it wont spam the nofications if you accedently keep doing the command becuase it queue up the next one
