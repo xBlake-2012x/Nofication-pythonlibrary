@@ -8,16 +8,22 @@ you also need other librarys to make this library work
 
 you need
 
-tkinker,
-queue,
-time,
-threading
+tkinker
+
+multiprocessing
+
+time
 
 # Importing
+
+install it using pip
+
+pip install nofications
 
 to import nofications you just type in
 
 from nofications import NotificationManager
+
 nofication = NotificationManager()
 
 # How To Use
