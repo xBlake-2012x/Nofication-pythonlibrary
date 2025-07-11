@@ -1,7 +1,27 @@
-import tkinter as tk
-import threading
-import time
-import queue
+
+try:
+    import tkinter as tk
+except ImportError:
+    raise RuntimeError("Tkinter is required but not available. Please install the Tk GUI libraries.")
+
+try:
+    import threading
+except ImportError:
+    raise RuntimeError("Threading is required but not available. Please install the Threading libraries.")
+
+try:
+    import time
+except ImportError:
+    raise RuntimeError("Time is required but not available. Please install the Time libraries.")
+
+try:
+    import queue
+except ImportError:
+    raise RuntimeError("Queue is required but not available. Please install the Queue libraries.")
+
+
+
+
 
 class NotificationManager:
     def __init__(self):
