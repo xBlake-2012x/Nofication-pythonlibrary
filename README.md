@@ -8,16 +8,16 @@ you also need other librarys to make this library work
 
 you need
 
-tkinker
-queue
-time
+tkinker,
+queue,
+time,
 threading
 
 # Importing
 
 to import nofications you just type in
 
-from Notifications import NotificationManager
+from nofications import NotificationManager
 nofication = NotificationManager()
 
 # How To Use
