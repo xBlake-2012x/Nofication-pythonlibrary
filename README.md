@@ -2,6 +2,17 @@
 
 A python library that show notification pop-ups
 
+# Requirements
+
+you also need other librarys to make this library work
+
+you need
+
+tkinker
+queue
+time
+threading
+
 # Importing
 
 to import nofications you just type in
