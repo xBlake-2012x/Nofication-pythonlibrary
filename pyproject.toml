@@ -2,6 +2,11 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project.urls]
+Homepage = "https://your-site-or-repo.com"
+Repository = "https://github.com/xBlake2012x/Nofications"
+
+
 [project]
 name = "Notifications"
 version = "1.0.0"
